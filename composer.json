@@ -1,0 +1,7 @@
+{
+    "require": {
+        "simplehtmldom/simplehtmldom": "^2.0",
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "minimum-stability": "RC"
+}

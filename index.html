@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMMA.AI - Email Generation for Marketing Agencies</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">SMMA.AI - Email Generation for Marketing Agencies</h1>
+        <form id="email-generation-form">
+            <div class="mb-3">
+                <label for="company-list" class="form-label">Upload Company List (Excel file)</label>
+                <input type="file" class="form-control" id="company-list" accept=".xls,.xlsx">
+            </div>
+            <input type="file" class="form-control" id="company-list" accept=".xls,.xlsx">
+            </div>
+            <div class="mb-3">
+                <label for="website-url" class="form-label">Website URL</label>
+                <input type="url" class="form-control" id="website-url" placeholder="https://example.com">
+            </div>
+            <div class="mb-3">
+                <label for="services-offered" class="form-label">Services Offered</label>
+                <input type="text" class="form-control" id="services-offered" placeholder="Social Media Marketing, Content Marketing">
+            </div>
+            <div class="mb-3">
+                <label for="brief-offer" class="form-label">Brief Offer</label>
+                <input type="text" class="form-control" id="brief-offer" placeholder="Get 50% off on our services for the first month">
+            </div>
+            <div class="mb-3">
+                <label for="edge" class="form-label">Edge</label>
+                <input type="text" class="form-control" id="edge" placeholder="We use AI-driven marketing strategies">
+            </div>
+            <div class="mb-3">
+                <label for="email-purpose" class="form-label">Email Purpose</label>
+                <input type="text" class="form-control" id="email-purpose" placeholder="Promote our services">
+            </div>
+            <div class="mb-3">
+                <label for="tone" class="form-label">Tone</label>
+                <input type="text" class="form-control" id="tone" placeholder="Friendly and professional">
+            </div>
+            <div class="mb-3">
+                <label for="email-length" class="form-label">Email Length</label>
+                <input type="number" class="form-control" id="email-length" placeholder="200">
+            </div>
+            <button type="submit" class="btn btn-primary">Generate Emails</button>
+        </form>
+    </div>
+    
+    <div id="loading-spinner" style="display: none;">
+        <div class="spinner-container">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    
+</body>
+
+</html>
